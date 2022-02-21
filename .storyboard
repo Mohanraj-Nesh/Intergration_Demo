@@ -1,0 +1,26 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "b0bdb7140c2341589e80daf595cabfd5",
+                    "formName": "frmHomePage",
+                    "isStartupForm": true,
+                    "key": "b0bdb7140c2341589e80daf595cabfd5",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "da1b17233c94432a8cf9b2f9c356f6ed",
+                    "formName": "frmNewsPage",
+                    "isStartupForm": false,
+                    "key": "da1b17233c94432a8cf9b2f9c356f6ed",
+                    "loc": "8 624.845263671875",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

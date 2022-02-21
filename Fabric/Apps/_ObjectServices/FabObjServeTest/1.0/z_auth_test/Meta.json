@@ -1,0 +1,42 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "z_auth_test",
+      "qualifiedName" : "MercyMedical.z_auth_test",
+      "metadataformatterobject" : "{\"displayName\":\"z_auth_test\",\"qualifiedName\":\"MercyMedical.z_auth_test\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"z_auth_test\",\"schemaName\":\"MercyMedical\",\"tableName\":\"z_auth_test\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "z_auth_test",
+      "qualifiedName" : "MercyMedical.z_auth_test",
+      "metadataformatterobject" : "{\"displayName\":\"z_auth_test\",\"qualifiedName\":\"MercyMedical.z_auth_test\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"z_auth_test\",\"schemaName\":\"MercyMedical\",\"tableName\":\"z_auth_test\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "PASSWORD",
+    "targetField" : "PASSWORD",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "CREATED_DATE",
+    "targetField" : "CREATED_DATE",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "ID",
+    "targetField" : "ID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "NAME",
+    "targetField" : "NAME",
+    "type" : "request_response"
+  } ]
+}

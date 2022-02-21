@@ -1,0 +1,29 @@
+{
+    "AS_Segment_d0f4ae711e444e29a2690e190787a4d0": {
+        "id": "AS_Segment_d0f4ae711e444e29a2690e190787a4d0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u63abd9eadb74a84a1753d54b83e088e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bf013dc60a794510b95d38fa51eb70e4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.checkAndAnimate();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

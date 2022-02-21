@@ -1,0 +1,198 @@
+{
+    "classname": "skeletonscreensegment",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bf16d4ee2e5d4a278b4fe6eaee7acb78",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "addDataAtBottom",
+                    "pw": {
+                        "displayName": "addDataAtBottom",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ff05768dbe904610851007e728dfc571",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "cd7b1287de0e485d98e87884c8ee634c",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "addDataAtTop",
+                    "pw": {
+                        "displayName": "addDataAtTop",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ff05768dbe904610851007e728dfc571",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f837e5213ed94d3abbf0a9754f430823",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ff05768dbe904610851007e728dfc571",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "hdba1b631d7040eb8e42e7ecfb379c09",
+                    "paramList": [
+                        {
+                            "name": "val"
+                        }
+                    ],
+                    "propertyKey": "dataMap",
+                    "pw": {
+                        "displayName": "dataMap",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ff05768dbe904610851007e728dfc571",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c99208d9bd2046619b5ac0e9a362e3b3",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onPull",
+                    "pw": {
+                        "displayName": "onPull",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ff05768dbe904610851007e728dfc571",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "daa1b38e04e84cc19e4debb86aa4a0a3",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onPush",
+                    "pw": {
+                        "displayName": "onPush",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ff05768dbe904610851007e728dfc571",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a6df1a7e56504c1b8d83af8372006a02",
+                    "paramList": [
+                        {
+                            "name": "selectedItem"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onRowClick",
+                    "pw": {
+                        "displayName": "onRowClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ff05768dbe904610851007e728dfc571",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d09fba3096294ffb93ffc041c8d61a0f",
+                    "originalPropertyKey": "widgetDataMap",
+                    "propertyIndex": 1,
+                    "propertyKey": "widgetDataMap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "widgetDataMap",
+                        "isHiddenInTool": true,
+                        "srcWidget": "konympSegment",
+                        "type": "object",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "jc6d3b7e0dd54c99b3af36471ca32380"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "db5354cb53c24d1092e988f4f635f4d9",
+                    "originalPropertyKey": "widgetDataMap",
+                    "propertyIndex": 2,
+                    "propertyKey": "widgetDataMap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "widgetDataMap",
+                        "isHiddenInTool": true,
+                        "srcWidget": "konympSegment",
+                        "type": "object",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "jc6d3b7e0dd54c99b3af36471ca32380"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j975c35857a641d2a65f8e24975964ca",
+                    "originalPropertyKey": "widgetDataMap",
+                    "propertyIndex": 3,
+                    "propertyKey": "widgetDataMap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "WidgetDataMap",
+                        "isHiddenInTool": true,
+                        "srcWidget": "konympSegment",
+                        "type": "object",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "jc6d3b7e0dd54c99b3af36471ca32380"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

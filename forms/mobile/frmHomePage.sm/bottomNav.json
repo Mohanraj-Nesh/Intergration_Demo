@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "49dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s096507be2e649d4815448322121b413",
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {},
+    "enablescrolling": true,
+    "id": "bottomNav",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "feeb47c48c43489892c8e2dcaaa408ad",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmHomePage",
+    "pf": "frmHomePage",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "d67d0b662f22436881dafb0e7c7b5f8a",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

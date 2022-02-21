@@ -1,0 +1,43 @@
+{
+    "splashScreen": {
+        "desktop": {
+            "desktopweb": {},
+            "kiosk": {}
+        },
+        "mobile": {
+            "android": {
+                "splashImage": "tamil.png",
+                "animationDuration": 3
+            },
+            "iphone": {
+                "splashConfig": {
+                    "_skin_": "sb116f544e0d462e82890133d3325ac7",
+                    "children": []
+                }
+            },
+            "spa": {},
+            "spaan": {},
+            "spaip": {},
+            "spawinphone8": {},
+            "winphone10": {},
+            "winphone8": {},
+            "showLoadingIndicator": false,
+            "splashImage": "tamil.png"
+        },
+        "tablet": {
+            "android": {},
+            "ipad": {
+                "landscape": {},
+                "splashConfig": {
+                    "_skin_": "sa2ec9ce65f5493894b0e7c225d23162",
+                    "children": []
+                }
+            },
+            "spa": {},
+            "spaandroidtablet": {},
+            "spaipad": {},
+            "spawindowstablet": {},
+            "windows8": {}
+        }
+    }
+}

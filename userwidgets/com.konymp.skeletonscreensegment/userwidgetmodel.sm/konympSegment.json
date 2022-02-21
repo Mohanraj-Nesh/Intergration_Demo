@@ -1,0 +1,168 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bounces_": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "01",
+    "enablereordering": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "konympSegment",
+    "ide_onPull": "AS_Segment_g2cacbd7fefa4f02b74b4350e684d45d",
+    "ide_onPush": "AS_Segment_acf66386902b49318424fc5b473369c0",
+    "ide_onRowClick": "AS_Segment_c817d41bb11b42639dbb57ba90a9e964",
+    "ide_onTouchEnd": "AS_Segment_d0f4ae711e444e29a2690e190787a4d0",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": true,
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "jc6d3b7e0dd54c99b3af36471ca32380",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "img4": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "glowingbackground.png"
+                },
+                "imgAnim1": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "glowingbackground.png"
+                },
+                "imgAnim2": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "glowingbackground.png"
+                },
+                "imgAnim3": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "glowingbackground.png"
+                }
+            },
+            {
+                "img4": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "glowingbackground.png"
+                },
+                "imgAnim1": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "glowingbackground.png"
+                },
+                "imgAnim2": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "glowingbackground.png"
+                },
+                "imgAnim3": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "glowingbackground.png"
+                }
+            }
+        ],
+        "rowTemplateId": "e95dfdf27acc4032ace5eebb0c2c31bf",
+        "rowtemplate": "flxSkeleton",
+        "sectionHeaderTemplateId": null,
+        "widgetdatamap": {
+            "flxWIdgetBox": "flxWIdgetBox",
+            "konympflx1": "konympflx1",
+            "konympflx2": "konympflx2",
+            "konympflx3": "konympflx3",
+            "konympflx4": "konympflx4",
+            "konympflxSegSC": "konympflxSegSC",
+            "konympimg4": "konympimg4",
+            "konympimgAnim1": "konympimgAnim1",
+            "konympimgAnim2": "konympimgAnim2",
+            "konympimgAnim3": "konympimgAnim3"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMainSection",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 1,
+    "rowfocusskin": null,
+    "rowskin": "sd2267f0cbde4942b21eb99dbbfd0cfa",
+    "rowtemplate": "flxSkeleton",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s4175b9a2b2b4368b01096ea2df85b63",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxWIdgetBox": "flxWIdgetBox",
+        "konympflx1": "konympflx1",
+        "konympflx2": "konympflx2",
+        "konympflx3": "konympflx3",
+        "konympflx4": "konympflx4",
+        "konympflxSegSC": "konympflxSegSC",
+        "konympimg4": "konympimg4",
+        "konympimgAnim1": "konympimgAnim1",
+        "konympimgAnim2": "konympimgAnim2",
+        "konympimgAnim3": "konympimgAnim3"
+    },
+    "zindex": 1
+}

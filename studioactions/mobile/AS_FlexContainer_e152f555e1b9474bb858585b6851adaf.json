@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_e152f555e1b9474bb858585b6851adaf": {
+        "id": "AS_FlexContainer_e152f555e1b9474bb858585b6851adaf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "konympTempSegSC",
+            "type": "templates",
+            "platform": "",
+            "KUID": "e95dfdf27acc4032ace5eebb0c2c31bf"
+        },
+        "language": "js",
+        "actions": []
+    }
+}
